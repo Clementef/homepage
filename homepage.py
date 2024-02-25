@@ -8,10 +8,10 @@ def addln(addln: str):
     compiled.append(addln)
 
 # paths
-web_path = Path.home() / 'software' / 'web'
-config = web_path / 'config.yaml'
-html_template = web_path / 'template.html'
-html_output = web_path / 'homepage.html'
+local_path = Path.cwd()
+config = local_path / 'config.yaml'
+html_template = local_path / 'template.html'
+html_output = local_path / 'homepage.html'
 
     # read in config
 with open(config, 'r') as file:
