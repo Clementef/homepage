@@ -10,5 +10,5 @@
     --link: #6272a4;
     --border-style: 0px solid #bd93f9;
     --border-radius: 1rem;
-    --block-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    --block-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
