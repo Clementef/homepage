@@ -1,0 +1,17 @@
+title: homepage
+
+blocks:
+  search engines title name is long alkjdf asdflajskdfk:
+    - [google, google.com]
+    - [bing, bing.com]
+    - [duckduckgo, duckduckgo.com]
+    - [ddg lite, lite.duckduckgo.com]
+  cal poly:
+    - [portal, portal.calpoly.edu]
+    - [maps, maps.calpoly.edu]
+    - [floor plans, afd.calpoly.edu/facilities/campus-maps/building-floor-plans/]
+  wikis:
+    - [arch, wiki.archlinux.org]
+    - [wikipedia, wikipedia.com]
+    - [osrs, oldschool.runescape.wiki]
+    - [very long link name asdj askdfjasljfa; asdfl, \#]

@@ -1,0 +1,21 @@
+title: homepage
+
+blocks:
+  title1:
+    - [link, text]
+    - [link, text]
+    - [link, text]
+    - [link, text]
+    - [link, text]
+    - [link, text]
+    - [link, text]
+    - [link, text]
+  title2:
+    - [link, text]
+    - [link, text]
+  title3:
+    - [link, text]
+    - [link, text]
+    - [link, text]
+    - [link, text]
+    - [link, text]
