@@ -1,7 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--font);
     background-color: var(--bg);
-    color: var(--fg);
 }
 
 ul, ol {
@@ -12,10 +11,11 @@ ul, ol {
 
 a {
     color: var(--link);
+    font-size: var(--link-size);
 }
 
 li {
-    padding: .3em;
+    padding: .4rem;
 }
 
 .block-grid {
@@ -25,10 +25,18 @@ li {
 }
 
 .block {
+    background-color: var(--block-bg);
     max-width: 12rem;
     min-width: 12rem;
     border: var(--border-style);
+    border-radius: var(--border-radius);
+    box-shadow: var(--block-shadow);
     text-align: center;
+}
+
+.block>h3 {
+    color: var(--block-title);
+    font-size: var(--block-title-size);
 }
 
 @media screen and (max-width: calc(12rem + 2 * 1rem)) {
@@ -41,6 +49,8 @@ li {
 .title {
     margin: 2rem 0 1rem 0;
     text-align: center;
+    color: var(--title);
+    font-size: var(--title-size);
 }
 
 .inset {

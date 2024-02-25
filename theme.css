@@ -1,6 +1,14 @@
 :root {
+    --font: "Montserrat", sans-serif;
+    --block-title-size: 1.3rem;
+    --title-size: 3rem;
+    --link-size: 1rem;
     --bg: #282a36;
-    --fg: #f8f8f2;
+    --title: #ff79c6;
+    --block-title: #f8f8f2;
+    --block-bg: #282a36;
     --link: #6272a4;
     --border-style: 1px solid #bd93f9;
+    --border-radius: 1rem;
+    --block-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
