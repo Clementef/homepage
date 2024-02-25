@@ -1,7 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
 ul, ol {
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+a {
+    color: var(--link);
+}
+
+li {
+    padding: .3em;
 }
 
 .block-grid {
@@ -13,7 +27,7 @@ ul, ol {
 .block {
     max-width: 12rem;
     min-width: 12rem;
-    border: 1px solid #000;
+    border: var(--border-style);
     text-align: center;
 }
 
